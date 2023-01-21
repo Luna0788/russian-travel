@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Путешествия по России</title>
+</head>
+<body class="page">
+  <header class="header">
+    <img src="./images/logo.svg" class="logo">
+    <div class="header__lang-links">
+      <a href="#" class="link header__lang-link header__lang-link_active">Ru</a>
+      <a href="#" class="link header__lang-link">En</a>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <section class="lead">
+      <h1 class="lead__title">Путешествия по России</h1>
+      <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+      <picture class="lead__image">
+        <source srcset="./images/lead-image-XS.jpg" media="(max-width: 320px)">
+        <source srcset="./images/lead-image-S.jpg" media="(max-width: 768px)">
+        <source srcset="./images/lead-image-M.jpg" media="(max-width: 1024px)">
+        <img src="./images/lead-image-L.jpg" alt="Ваша полка - верхняя">
+      </picture>
+      <p class="lead__image-caption">ваша полка — верхняя</p>
+    </section>
+
+    <section class="intro">
+      <h2 class="intro__title">Чего мы там не видели?</h2>
+      <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
+        но только 36% планируют провести отпуск в родной стране.
+        Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами
+        Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и
+        многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей,
+        усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места,
+        достойные вашего отпуска.</p>
+      <ul class="intro__list">
+        <li>Часовых поясов 11</li>
+        <li>Объектов природного наследия ЮНЕСКО 12</li>
+        <li>Объектов культурного наследия ЮНЕСКО 16</li>
+        <li>Природных заповедников 105</li>
+        <li>Аэропортов 241</li>
+      </ul>
+    </section>
+
+    <section class="photo-grid">
+      <figure class="photo-grid__item"><img src="./images/photo-item0.jpg" alt="фото" class="photo-grid__image"></figure>
+      <figure class="photo-grid__item"><img src="./images/photo-item1.jpg" alt="фото" class="photo-grid__image"></figure>
+      <figure class="photo-grid__item"><img src="./images/photo-item2.jpg" alt="фото" class="photo-grid__image"></figure>
+      <figure class="photo-grid__item"><img src="./images/photo-item3.jpg" alt="фото" class="photo-grid__image"></figure>
+      <figure class="photo-grid__item"><img src="./images/photo-item4.jpg" alt="фото" class="photo-grid__image"></figure>
+      <figure class="photo-grid__item"><img src="./images/photo-item5.jpg" alt="фото" class="photo-grid__image"></figure>
+      <figure class="photo-grid__item"><img src="./images/photo-item6.jpg" alt="фото" class="photo-grid__image"></figure>
+      <figure class="photo-grid__item"><img src="./images/photo-item7.jpg" alt="фото" class="photo-grid__image"></figure>
+      <figure class="photo-grid__item"><img src="./images/photo-item8.jpg" alt="фото" class="photo-grid__image"></figure>
+      <figure class="photo-grid__item"><img src="./images/photo-item9.jpg" alt="фото" class="photo-grid__image"></figure>
+      <figure class="photo-grid__item"><img src="./images/photo-item10.jpg" alt="фото" class="photo-grid__image"></figure>
+      <figure class="photo-grid__item"><img src="./images/photo-item11.jpg" alt="фото" class="photo-grid__image"></figure>
+    </section>
+
+    <section class="places">
+      <div class="place">
+        <div class="place__name">
+          <h2 class="place__title">Куршская коса</h2>
+          <div class="place__website">
+            <p class="place__url-header">URL</p>
+            <a href="" class="link place__link"></a>
+          </div>
+        </div>
+        <div class="place__info">
+          <picture class="place__image">
+            <source srcset="" media="(max-width: 320px)">
+            <source srcset="" media="(max-width: 768px)">
+            <source srcset="" media="(max-width: 1024px)">
+            <img src="" alt="Куршская коса">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="cover"></section>
+
+  </main>
+
+  <footer class="footer">
+    <ul class="footer__links">
+      <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
+      <li><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
+      <li><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
+      <li><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
+      <li><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
+    </ul>
+    <p class="footer__copyright">&#169; Юлия Сафронова</p>
+  </footer>
+
+</body>
+</html>
