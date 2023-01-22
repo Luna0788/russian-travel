@@ -9,7 +9,7 @@
 </head>
 <body class="page">
   <header class="header">
-    <img src="./images/logo.svg" class="logo">
+    <img src="./images/logo.svg" class="logo" alt="Логотип">
     <div class="header__lang-links">
       <a href="#" class="link header__lang-link header__lang-link_active">Ru</a>
       <a href="#" class="link header__lang-link">En</a>
@@ -48,7 +48,7 @@
       </ul>
     </section>
 
-    <section class="photo-grid">
+    <section class="photo-grid" aria-label="Галерея">
       <figure class="photo-grid__item"><img src="./images/photo-item0.jpg" alt="фото" class="photo-grid__image"></figure>
       <figure class="photo-grid__item"><img src="./images/photo-item1.jpg" alt="фото" class="photo-grid__image"></figure>
       <figure class="photo-grid__item"><img src="./images/photo-item2.jpg" alt="фото" class="photo-grid__image"></figure>
@@ -63,7 +63,7 @@
       <figure class="photo-grid__item"><img src="./images/photo-item11.jpg" alt="фото" class="photo-grid__image"></figure>
     </section>
 
-    <section class="places">
+    <section class="places" aria-label="Места России">
 
       <div class="place">
         <div class="place__name">
@@ -73,14 +73,14 @@
             <a href="http://park-kosa.ru" class="link place__link" target="_blank">park-kosa.ru</a>
           </div>
         </div>
-        <div class="place__info" aria-label="Куршская коса">
+        <div class="place__info">
           <picture class="place__image">
             <source srcset="./images/places/kursh-XS.jpg" media="(max-width: 320px)">
             <source srcset="./images/places/kursh-S.jpg" media="(max-width: 768px)">
             <source srcset="./images/places/kursh-M.jpg" media="(max-width: 1024px)">
             <img src="./images/places/kursh-L.jpg" alt="Куршская коса" class="place__img">
           </picture>
-          <article class="place__text">
+          <div class="place__text">
             <p class="place__paragraph">
               Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта &#8211; спокойного
               Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
@@ -91,7 +91,7 @@
               по соседству &#8211; самая западная точка России, Балтийская коса, &#8211; и немецкое наследие россыпи небольших
               приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
             </p>
-          </article>
+          </div>
         </div>
       </div>
 
@@ -103,14 +103,14 @@
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="link place__link" target="_blank">National Geographic</a>
           </div>
         </div>
-        <div class="place__info" aria-label="Кольский">
+        <div class="place__info">
           <picture class="place__image">
             <source srcset="./images/places/kolsk-XS.jpg" media="(max-width: 320px)">
             <source srcset="./images/places/kolsk-S.jpg" media="(max-width: 768px)">
             <source srcset="./images/places/kolsk-M.jpg" media="(max-width: 1024px)">
             <img src="./images/places/kolsk-L.jpg" alt="Кольский">
           </picture>
-          <article class="place__text">
+          <div class="place__text">
             <p class="place__paragraph">
               Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой
               на юг &#8211; тайга, а на север &#8211; Ледовитый океан, прикидывающийся Баренцевым морем.
@@ -121,7 +121,7 @@
               вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия.
               Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.
             </p>
-          </article>
+          </div>
         </div>
       </div>
 
@@ -133,14 +133,14 @@
             <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="link place__link" target="_blank">YouTube</a>
           </div>
         </div>
-        <div class="place__info" aria-label="Алтай">
+        <div class="place__info">
           <picture class="place__image">
             <source srcset="./images/places/altay-XS.jpg" media="(max-width: 320px)">
             <source srcset="./images/places/altay-S.jpg" media="(max-width: 768px)">
             <source srcset="./images/places/altay-M.jpg" media="(max-width: 1024px)">
             <img src="./images/places/altay-L.jpg" alt="Алтай">
           </picture>
-          <article class="place__text">
+          <div class="place__text">
             <p class="place__paragraph">
               Алтай &#8211; одно из красивейших мест в России. В первую очередь из-за гор: если ехать
               вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете
@@ -152,7 +152,7 @@
               над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы &#8211; тоже
               обитатели Алтайского края.
             </p>
-          </article>
+          </div>
         </div>
       </div>
 
@@ -164,14 +164,14 @@
             <a href="https://vk.com/baikalmile" class="link place__link" target="_blank">https://vk.com/baikalmile</a>
           </div>
         </div>
-        <div class="place__info" aria-label="Зимний Байкал">
+        <div class="place__info">
           <picture class="place__image">
             <source srcset="./images/places/baykal-XS.jpg" media="(max-width: 320px)">
             <source srcset="./images/places/baykal-S.jpg" media="(max-width: 768px)">
             <source srcset="./images/places/baykal-M.jpg" media="(max-width: 1024px)">
             <img src="./images/places/baykal-L.jpg" alt="Зимний Байкал">
           </picture>
-          <article class="place__text">
+          <div class="place__text">
             <p class="place__paragraph">
               Всем известен Байкал как крупнейшее озеро в мире. Многие также знают,
               что это самый большой источник пресной воды и одно из красивейших мест в России.
@@ -182,7 +182,7 @@
               развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале
               «Байкальская миля» был поставлен мировой рекорд &#8211; 197.011 км/ч.
             </p>
-          </article>
+          </div>
         </div>
       </div>
 
@@ -194,14 +194,14 @@
             <a href="http://vodlozero.ru" class="link place__link" target="_blank">http://vodlozero.ru/</a>
           </div>
         </div>
-        <div class="place__info" aria-label="Карелия">
+        <div class="place__info">
           <picture class="place__image">
             <source srcset="./images/places/karelia-XS.jpg" media="(max-width: 320px)">
             <source srcset="./images/places/karelia-S.jpg" media="(max-width: 768px)">
             <source srcset="./images/places/karelia-M.jpg" media="(max-width: 1024px)">
             <img src="./images/places/karelia-L.jpg" alt="Карелия">
           </picture>
-          <article class="place__text">
+          <div class="place__text">
             <p class="place__paragraph">
               Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница
               не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров &#8211; леса карельских
@@ -211,7 +211,7 @@
               А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями.
               Чтобы все знали, кто тут хозяин.
             </p>
-          </article>
+          </div>
         </div>
       </div>
 
