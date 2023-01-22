@@ -4,4 +4,32 @@
   height: 1px;
   margin: 92px auto;
   background-image: url("../../images/cover-background-L.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    min-height: 640px;
+    background-image: url("../../images/cover-background-M.jpg");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin: 90px auto 88px;
+    max-width: 768px;
+    min-height: 480px;
+    background-image: url("../../images/cover-background-S.jpg");
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    margin: 66px auto 64px;
+    max-width: 320px;
+    min-height: 200px;
+    background-image: url("../../images/cover-background-XS.jpg");
+  }
 }

@@ -1,5 +1,24 @@
 .place__info {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__info {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__info {
+    gap: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__info {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
 }

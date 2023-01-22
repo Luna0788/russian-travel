@@ -1,7 +1,28 @@
 .place__name {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
   gap: 40px;
   padding-bottom: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__name {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__name {
+    gap: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__name {
+    align-items: flex-end;
+    gap: 32px;
+    padding-bottom: 32px;
+  }
 }
