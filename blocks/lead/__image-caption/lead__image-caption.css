@@ -8,13 +8,13 @@
   padding-top: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .lead__image-caption {
     padding-left: 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .lead__image-caption {
     padding-left: 18px;
   }

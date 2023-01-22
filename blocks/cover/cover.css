@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .cover {
     max-width: 1024px;
     min-height: 640px;
@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .cover {
     margin: 90px auto 88px;
     max-width: 768px;
@@ -26,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .cover {
     margin: 66px auto 64px;
     max-width: 320px;
