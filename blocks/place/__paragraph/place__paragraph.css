@@ -29,7 +29,7 @@
 @media screen and (max-width: 767px) {
   .place__paragraph {
     box-sizing: border-box;
-    max-width: 288px;
+    max-width: 284px;
     margin: 0 auto;
   }
 }
